@@ -1,0 +1,34 @@
+/* #scrollmenu {
+  overflow-x: scroll !important;
+  scroll-behavior: smooth !important;
+}
+::-webkit-scrollbar {
+  display: none !important;
+}
+.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+} */
+
+#container {
+  overflow-x: scroll;
+}
+#content {
+  white-space: nowrap;
+}
+::-webkit-scrollbar {
+  display: none !important;
+}
+#slideBack {
+ font-size: 30px !important;
+ color: white !important;
+}
+#slide {
+  position: relative !important;
+  left: 85% !important;
+  font-size: 30px !important;
+  color: white !important;
+}
