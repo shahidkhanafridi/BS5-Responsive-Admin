@@ -1,0 +1,28 @@
+.list-group .list-group {
+    display: none;
+    margin-bottom: 0;
+}
+
+.list-group .list-group-item {
+    border-radius: 0;
+    border-width: 1px 0 1px 0;
+}
+
+.list-group .list-group-item:hover {
+    background-color: #0d6efd;
+    color:#fff;
+}
+
+.list-group .list-group-item:first-child {
+    border-top-width: 0;
+}
+
+.list-group>.list-group>.list-group-item {
+    padding-left: 2.5rem;
+}
+.list-group>.list-group>.list-group>.list-group-item {
+    padding-left: 3.5rem;
+}
+.list-group>.list-group>.list-group>.list-group>.list-group-item {
+    padding-left: 4.5rem;
+}
