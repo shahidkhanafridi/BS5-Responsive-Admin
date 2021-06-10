@@ -15,6 +15,7 @@
     -moz-transition: margin .25s ease-out;
     -o-transition: margin .25s ease-out;
     transition: margin .25s ease-out;
+    z-index: 99999;
 }
 
 .sidebar-margin {
@@ -85,5 +86,4 @@
         min-width: 0;
         margin-left: 0px;
     }
-   
 }
