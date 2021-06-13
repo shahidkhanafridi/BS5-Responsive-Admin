@@ -23,12 +23,39 @@
   display: none !important;
 }
 #slideBack {
- font-size: 30px !important;
- color: white !important;
+  font-size: 30px !important;
+  color: white !important;
 }
 #slide {
   position: relative !important;
-  left: 85% !important;
+  left: 90% !important;
   font-size: 30px !important;
   color: white !important;
+}
+
+/* Mob Nav*/
+#Nav2{
+  display: none !important;
+}
+#container2 {
+  overflow-x: scroll;
+}
+#content2 {
+  white-space: nowrap;
+}
+#slideBack2 {
+  font-size: 30px !important;
+  color: white !important;
+}
+#slide2{
+  position: relative !important;
+  left: 100% !important;
+  font-size: 30px !important;
+  color: white !important;
+}
+
+@media only screen and (max-width: 600px) {
+  #slideBack {
+    display: none !important;
+  }
 }
